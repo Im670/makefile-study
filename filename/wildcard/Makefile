@@ -11,9 +11,9 @@
 
 
 # m.c main.c tool.c
+T := $(wildcard ./dir/*.c)
 
-
-$(info $(wildcard *.c))
+$(info $(T))
 
 
 
